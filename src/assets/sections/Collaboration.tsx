@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { motion } from "framer-motion";
 import Discount from "../components/colloboration/Discount";
 import HoverCard from "../components/Productivity-content/HoverCard";
@@ -6,7 +6,7 @@ import { data } from "../Data";
 import Card from "../components/colloboration/Card";
 type Props = {};
 
-const Collaboration = (props: Props) => {
+const Collaboration = ({}: Props) => {
   const [hover, sethover] = useState<boolean>(false)
   const [hovered, sethovered] = useState<boolean>(false)
   const container = {
