@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { motion } from "framer-motion";
 import CodeEditor from "../components/Productivity-content/CodeEditor";
 import Code2 from "../components/Productivity-content/Code2";

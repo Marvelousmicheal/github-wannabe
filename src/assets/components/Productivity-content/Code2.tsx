@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { motion } from "framer-motion";
 type Props = {};
 
-const Code2 = (props: Props) => {
+const Code2 = ({}: Props) => {
   const [hover, sethover] = useState<boolean>(false);
 
   const lineVariant = {

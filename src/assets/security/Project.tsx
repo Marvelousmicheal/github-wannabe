@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import  {useState} from 'react'
 import {motion} from "framer-motion"
 
 type Props = {}
 
-const Projects = (props: Props) => {
+const Projects = ({}: Props) => {
     const [hovered, setHovered] = useState<boolean>(false)
   return (
     <div className='flex relative md:pl-10'>

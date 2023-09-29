@@ -1,5 +1,5 @@
-'use client'
-import React, {useState} from 'react'
+
+import  {useState} from 'react'
 
 
 import {motion} from "framer-motion"
@@ -8,7 +8,7 @@ import Projects from '../security/Project'
 
 type Props = {}
 
-const Security = (props: Props) => {
+const Security = ({}: Props) => {
     const [hovered, setHovered] = useState<boolean>(false)
     const [hovered1, setHovered1] = useState<boolean>(false)
     const [hovered2, setHovered2] = useState<boolean>(false)

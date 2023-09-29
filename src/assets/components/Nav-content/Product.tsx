@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Navitems from "../Navitems";
 import Navitems2 from "../Navitems2";
 import Span from "../Span";

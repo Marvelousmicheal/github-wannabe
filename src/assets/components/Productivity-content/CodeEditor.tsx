@@ -1,7 +1,7 @@
-import React from "react";
+import  from "react";
 import Code from "./Code";
 import { motion } from "framer-motion";
-import Container from "../../../Container";
+
 
 type Props = {};
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { useSpring, animated } from "@react-spring/web";
 
 type Props = {
@@ -14,7 +14,7 @@ const calc = (x: number, y: number): [number, number, number] => [
   1.02,
 ];
 
-const trans = (x: number, y: number, s: number): string => `perspective(900px) rotateX(${-x}deg) rotateY(${-y}deg)`;
+const trans = (x: number, y: number, ): string => `perspective(900px) rotateX(${-x}deg) rotateY(${-y}deg)`;
 
 const HoverCard: React.FC<Props> = ({children, backgroundColor, direction, left}) => {
     const [hovered, setIsHovered] = useState(false)

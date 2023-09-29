@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Earth from "../components/footer/Earth";
 import Earth2 from "../components/footer/Earth1";
 
